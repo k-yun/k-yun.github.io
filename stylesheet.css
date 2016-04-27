@@ -1,0 +1,143 @@
+/***********FOR ALL PAGES***********/
+body {
+     background-image: url('images/pink paper.jpg');
+}
+#navbar {
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: Cinzel;
+    font-size: 25px;
+}
+a:visited {
+    color: #22477A;
+}
+a:hover {
+    color: #227A29;
+}
+a:active {
+    color: #7A2273;
+}
+/***********FOR HOME PAGE***********/
+h1 {
+    text-align: center;
+    font-family: Cinzel;
+}
+.copy {
+     text-align: center;
+     font-family: Cinzel;
+     font-size: 20px;
+     margin-top: 25px;
+     color: #7A2273;
+     width: 70%;
+     margin: auto;
+}
+p:first-child::first-letter {font-size: 50px;}
+
+.homeimage {
+    text-align: center;
+    margin-top: 50px;
+}
+/***********FOR INSTRUCTIONS PAGE***********/
+.instructimage {
+    text-align: center;
+}
+.instructcopy {
+    width: 60%;
+    margin: auto;
+    font-family: Cinzel;
+    color: #7A2273;
+    display: block;
+}
+ol li {
+    font-family: Cinzel;
+    font-size: 20px;
+    color: #7A2273;
+}
+/**********FOR TOOLS/EQUIPMENT PAGE***********/
+.equipimage {
+    text-align: center;
+}
+.equipcopy {
+    width: 60%;
+    margin: auto;
+    font-family: Cinzel;
+    color: #7A2273;
+    display: block;
+}
+ul li {
+    text-decoration: underline;
+}
+.imagepans {
+    float: right;
+}
+.imagemixer {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.imageprocessor {
+    float: right;
+    clear: both;
+}
+.imagemeasurecup {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.imagemspoons {
+    float: right;
+    /*margin-right: 300px;*/
+}
+.imagebowls {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.imagerollpin {
+    float: right;
+}
+.imagescale {
+    float: left;
+    margin-right: 10px;
+}
+.imagesieve {
+    float: right;
+}
+.imagewhisk {
+    float: left;
+    margin-right: 10px;
+}
+/***********FOR INGREDIENTS PAGE***********/
+.ingredimage {
+    text-align: center;
+}
+.ingredcopy {
+    width: 60%;
+    margin: auto;
+    font-family: Cinzel;
+    color: #7A2273;
+    display: block;
+}
+.recipe {
+    margin: auto;
+}
+.col1 {
+    text-align: right;
+    width: 150px;
+}
+.col2 {
+    text-align: right;
+    width: 75px;
+}
+.col3 {
+    padding-left: 25px;
+}
+ol li ul li {
+    text-decoration: none;
+    display: block;
+}
